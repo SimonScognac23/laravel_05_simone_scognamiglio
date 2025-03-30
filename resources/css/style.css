@@ -1,0 +1,96 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ------------------------ PAGINA INDICE ------------------------ */
+
+/* Custom Background for the Index Page */
+.bg-custom {
+    background-image: url('https://wallpaperaccess.com/full/2725441.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Overlay for Index Page */
+.overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+/* ------------------------ PAGINA PERSONAGGI ------------------------ */
+
+
+/* Custom Title Styling */
+.custom-title {
+    color: #ffcc00;
+    /* Dorato */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Image Styling */
+.custom-img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the Image */
+.custom-img:hover {
+    transform: scale(1.1);
+}
+
+/* Custom Card Styling */
+.custom-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom Button Styling */
+.custom-btn {
+    background-color: #ffcc00;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Button */
+.custom-btn:hover {
+    background-color: #e6b800;
+    color: #000;
+}
+
+.custom-background {
+    background-image: url('https://images6.alphacoders.com/814/thumb-1920-814970.png');
+    /* Modifica con l'URL della tua immagine */
+    background-size: cover;
+    /* Fa sì che l'immagine copra l'intera area */
+    background-position: center;
+    /* Posiziona l'immagine al centro */
+    background-attachment: fixed;
+    /* Rende lo sfondo fisso durante lo scroll */
+}
+
+
+/*----------------------------------PAGINA CONTATTACI-----------------------------------------------*/
+
+.background-container {
+    background-image: url('https://wallpaperaccess.com/full/36628.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
